@@ -1,0 +1,21 @@
+{
+  "name": "jqtest",
+  "version": "1.0.0",
+  "description": "jqtest",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fireworks": "^2.2.7",
+    "fireworks-js": "^2.0.2",
+    "jquery": "^3.6.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  }
+}
