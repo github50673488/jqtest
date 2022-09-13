@@ -7,16 +7,26 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^4.6.0",
     "fireworks": "^2.2.7",
     "fireworks-js": "^2.0.2",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.6.1",
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "sass": "^1.54.9",
     "typescript": "^4.8.2"
   }
 }
